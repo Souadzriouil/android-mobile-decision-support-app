@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="icons">
+    <item>@drawable/baseline_home_24</item>
+    <item>@drawable/baseline_search_24</item>
+    <item>@drawable/baseline_notifications_24</item>
+</array>
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_light</item>
+    </array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_button_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyButtonStyle.Text" parent="android:Widget" tools:ignore="DuplicateDefinition">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

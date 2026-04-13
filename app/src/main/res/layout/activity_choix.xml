@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixActivity"
+    android:background="@drawable/apbak">
+    <View
+        android:layout_width="430dp"
+        android:layout_height="800dp"
+        android:background="#57000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <!-- Input pour la superficie -->
+
+    <!-- Spinner pour l'étage -->
+
+    <!-- Spinner pour le nombre de chambre -->
+
+    <!-- Checkbox pour le parking -->
+
+    <!-- Checkbox pour le balcon -->
+
+    <!-- Checkbox pour la cuisine équipée -->
+
+    <!-- Bouton OK -->
+    <!-- Checkbox pour la cuisine équipée -->
+
+    <EditText
+        android:id="@+id/superficieInput"
+        android:layout_width="378dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Superficie"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/etageSpinner"
+        android:layout_width="378dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_bg"
+        android:minHeight="48dp"
+        android:padding="20dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/chambreSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/superficieInput"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Spinner
+        android:id="@+id/chambreSpinner"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_bg"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/parkingCheckbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etageSpinner" />
+
+    <CheckBox
+        android:id="@+id/parkingCheckbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="Parking"
+        android:buttonTint="@android:color/white"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chambreSpinner" />
+
+    <CheckBox
+        android:id="@+id/balconCheckbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:text="Balcon"
+        android:textSize="20dp"
+        android:buttonTint="@android:color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkingCheckbox" />
+
+    <CheckBox
+        android:id="@+id/cuisineCheckbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:text="Cuisine équipée"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:buttonTint="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balconCheckbox" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input_bg"
+        android:text="OK"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuisineCheckbox"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etageSpinner"
+        app:layout_constraintEnd_toEndOf="@+id/etageSpinner"
+        app:layout_constraintTop_toTopOf="@+id/etageSpinner"
+        app:layout_constraintVertical_bias="0.521"
+        app:srcCompat="@drawable/ic_arrow_drop_down"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/chambreSpinner"
+        app:layout_constraintEnd_toEndOf="@+id/chambreSpinner"
+        app:layout_constraintTop_toTopOf="@+id/chambreSpinner"
+        app:srcCompat="@drawable/ic_arrow_drop_down"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_view_location"
+        android:layout_width="378dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/input_bg"
+        android:padding="16dp"
+        android:paddingStart="10dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/superficieInput"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Choose your Appartment"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

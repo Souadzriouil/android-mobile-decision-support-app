@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E5F7"
+    tools:context=".appartementActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="124dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="167dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="190dp"
+                    android:layout_height="146dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="@string/votre_appartement"
+                    android:textColor="#5B87E4"
+                    android:textSize="26sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView17"
+                    app:layout_constraintTop_toTopOf="@+id/imageView17"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints,TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="220dp"
+                    android:layout_height="139dp"
+                    android:layout_marginStart="200dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/hahir"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="6dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/intro_top_background"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Superficie"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/superficieInput"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edit_txt"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Exemple: 50 m²"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+
+                    android:textColorHint="@color/white"
+                    android:textSize="16dp"
+                    tools:ignore="TextSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Numéro d'étage"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/etageSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/edit_txt"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:paddingStart="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/chambreSpinner"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/superficieInput"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nombre des chambre"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/chambreSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_txt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etageSpinner" />
+
+
+                <Button
+                    android:id="@+id/next_button"
+                    android:layout_width="279dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/next_button_bg"
+                    android:drawableEnd="@drawable/ic_arrow_forward"
+                    android:text=""
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

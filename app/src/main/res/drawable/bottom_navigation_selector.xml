@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- État sélectionné -->
+    <item android:color="@color/colorPrimaryDark"
+        android:state_checked="true" />
+
+    <!-- État non sélectionné -->
+    <item android:color="@color/colorPrimary"
+        android:state_checked="false" />
+
+    <!-- État activé -->
+    <item android:alpha="1"
+        android:state_enabled="true" />
+
+    <!-- État désactivé -->
+    <item android:alpha="0.5"
+        android:state_enabled="false" />
+</selector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyEditTextTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlActivated">#ff0000</item> <!-- Couleur quand EditText est actif -->
+        <item name="colorControlHighlight">#ff0000</item> <!-- Couleur de l'effet de pression/révélation -->
+        <item name="colorControlNormal">#0000ff</item> <!-- Couleur quand EditText est inactif -->
+    </style>
+
+</resources>

@@ -1,0 +1,440 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Les informations sur Votre Appartement"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/appartementLayout"
+        android:layout_width="397dp"
+        android:layout_height="684dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nomAppartementLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Nom de l'appartement : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nomAppartementTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/nomAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/prixAppartementLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nomAppartementLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Prix de l'appartement : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prixAppartementTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nomAppartementTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/SuperficierLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prixAppartementLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Superficier : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SuperficierTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prixAppartementLabel"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/nbrEtageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SuperficierLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Le nombre de étage : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nbrEtageTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SuperficierTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/nbrChmbreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nbrEtageLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Le nombre du chambre : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nbrChmbreTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nbrEtageTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/balconLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nbrChmbreLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Balcon : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/balconTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nbrChmbreTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ParkingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/balconLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Parking : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ParkingTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/balconTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/CuisineLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ParkingLabel"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Cuisine équipée : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CuisineTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ParkingTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="367dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/CuisineTextView"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ligne" />
+
+        <TextView
+            android:id="@+id/autreTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/autreTextView2"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/autreTextView1"
+            android:text="" />
+
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="367dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/autreTextView2"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ligne" />
+
+
+        <TextView
+            android:id="@+id/enregistrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Enregistrement : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enregistrementTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+        <TextView
+            android:id="@+id/conservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enregistrement"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Conservation financiére : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/conservationTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enregistrementTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/frais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conservation"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Frais d'hypothéque : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fraisTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conservationTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/pret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frais"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Pret : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pretTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fraisTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fraisdivers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pret"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Frais divers : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fraisdiversTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pretTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/Certificat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fraisdivers"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Certificats de propriéte : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CertificatTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fraisdiversTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fraisDeNotaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CertificatTextView"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Frais de notaires : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fraisDeNotaireTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CertificatTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/honoraire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fraisDeNotaire"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Honoraires : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/honoraireTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fraisDeNotaireTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/honoraire"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="TVA : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvaTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/honoraireTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/totale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tva"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Totale : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totaleTextView"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvaTextView"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prixAppartementLabel"
+            android:text="" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/createPDFButton"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appartementLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="71dp"
+        android:minHeight="48dp"
+        android:text="Télécharger le PDF"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>

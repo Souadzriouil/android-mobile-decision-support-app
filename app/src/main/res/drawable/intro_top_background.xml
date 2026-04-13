@@ -1,0 +1,10 @@
+<!-- intro_top_background.xml -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <corners android:radius="16dp" /> <!-- Coins arrondis -->
+    <gradient
+        android:startColor="#5B87E4"
+        android:endColor="#274389"
+        android:angle="90" /> <!-- Angle du dégradé (90 pour vertical) -->
+</shape>

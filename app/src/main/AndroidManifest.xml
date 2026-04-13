@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.alomrane">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:forceDarkAllowed="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlOmrane"
+        tools:ignore="MissingApplicationIcon"
+        tools:targetApi="tiramisu">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+        <activity
+            android:name=".YourActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AnmenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DecmenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".declarationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AichambresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".CalculeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".donnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".afficheproject"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".appartementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".appartementActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".appartementActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".VideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChambreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChoixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CircleDesign"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProjectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlMohammediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RabatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity_singin"
+            android:exported="false" />
+        <activity
+            android:name=".CompassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnnimationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"
+            android:value="AIzaS" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmbpEKWiu9q25qMef8zBeTpE2HzQNXSYc" />
+    </application>
+
+</manifest>

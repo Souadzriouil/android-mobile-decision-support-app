@@ -1,0 +1,84 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    tools:context=".AnmenuActivity"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="476dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/animals2"
+        android:tag="@string/kelb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="680dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/theift2"
+        android:tag="@string/chofar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="296dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/smell2"
+        android:tag="@string/riha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/low"
+        android:tag="@string/mesati"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/other2"
+        android:tag="@string/akhar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="520dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hole2"
+        android:tag="@string/hofra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

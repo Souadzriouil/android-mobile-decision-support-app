@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appartementActivity"
+    android:id="@+id/background"
+    android:background="#D4E5F7"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="147dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="197dp"
+                    android:layout_height="145dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="Votre Appartement"
+                    android:textColor="#5B87E4"
+                    android:textSize="28sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView17"
+                    app:layout_constraintTop_toTopOf="@+id/imageView17"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints,TextSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="213dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="212dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/hahir"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="-7dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/intro_top_background"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Société de construction"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdata"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edit_txt"
+                    android:ems="10"
+                    android:hint="Ex: ADDOHA"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/prix_d_appartement"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tttt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edit_txt"
+                    android:ems="10"
+                    android:hint="Ex: 200000 MAD"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/localisation"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/edit_txt"
+                    android:ems="10"
+                    android:hint="Lat: 32.99538,Long: -7.620895"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16dp"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Image d'appartemnt "
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/imageUrlTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="32dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edit_txt"
+                    android:ems="10"
+                    android:hint="En attente d'ajout image..."
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    tools:ignore="TextFields" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/cameraImageButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/baseline_camera_alt_24"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="or"
+                        android:textColor="#ffffff"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/galleryImageButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/baseline_image_24"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/next_button"
+                    android:layout_width="292dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/next_button_bg"
+
+                    android:drawableEnd="@drawable/ic_arrow_forward"
+                    android:textColor="@color/white"
+
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

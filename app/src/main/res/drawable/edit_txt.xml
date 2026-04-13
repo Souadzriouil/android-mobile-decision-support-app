@@ -1,0 +1,10 @@
+<!-- edit_text_bg.xml -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <solid android:color="#A5BCE3" /> <!-- Couleur de fond -->
+    <corners android:radius="8dp" /> <!-- Coins arrondis -->
+    <stroke
+        android:color="#5B87E4"
+        android:width="2dp" /> <!-- Épaisseur de la bordure -->
+</shape>

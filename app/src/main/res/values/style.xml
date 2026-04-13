@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialogStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:layout_marginLeft">4dp</item> <!-- Définissez la marge gauche souhaitée -->
+        <item name="android:layout_marginRight">4dp</item> <!-- Définissez la marge droite souhaitée -->
+    </style>
+</resources>
