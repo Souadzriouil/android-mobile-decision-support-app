@@ -64,23 +64,23 @@ This Android application was developed during an internship as a **Mobile Develo
 
 <table>
   <tr>
-    <td align="center"><strong>🗺️ Map View</strong><br/><img src="assets/map-view.png" width="200"/></td>
-    <td align="center"><strong>🌍 Map Overview</strong><br/><img src="assets/map-overview.png" width="200"/></td>
-    <td align="center"><strong>⚠️ Danger Detection</strong><br/><img src="assets/report-danger.png" width="200"/></td>
+    <td align="center"><strong>🗺️ Map View</strong><br/><img src="assets/map-view.jpg" width="200"/></td>
+    <td align="center"><strong>🌍 Map Overview</strong><br/><img src="assets/map-overview.jpg" width="200"/></td>
+    <td align="center"><strong>⚠️ Danger Detection</strong><br/><img src="assets/add-declaration.jpg" width="200"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>📝 Add Declaration</strong><br/><img src="assets/add-declaration.png" width="200"/></td>
-    <td align="center"><strong>📊 Categories</strong><br/><img src="assets/categories.png" width="200"/></td>
-    <td align="center"><strong>📋 Property Details</strong><br/><img src="assets/property-details.png" width="200"/></td>
+    <td align="center"><strong>📝 Add Declaration</strong><br/><img src="assets/add-declaration.jpg" width="200"/></td>
+    <td align="center"><strong>📊 Categories</strong><br/><img src="assets/categories.jpg" width="200"/></td>
+    <td align="center"><strong>📋 Property Details</strong><br/><img src="assets/property-details.jpg" width="200"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>🏠 Room Selection</strong><br/><img src="assets/room-selection.png" width="200"/></td>
-    <td align="center"><strong>🏢 Apartment Form</strong><br/><img src="assets/form.png" width="200"/></td>
-    <td align="center"><strong>🧭 Compass</strong><br/><img src="assets/compass.png" width="200"/></td>
+    <td align="center"><strong>🏠 Room Selection</strong><br/><img src="assets/room-selection.jpg" width="200"/></td>
+    <td align="center"><strong>🏢 Apartment Form</strong><br/><img src="assets/form.jpg" width="200"/></td>
+    <td align="center"><strong>🧭 Compass</strong><br/><img src="assets/compass.jpg" width="200"/></td>
   </tr>
   <tr>
-    <td align="center"><strong>🔐 Register</strong><br/><img src="assets/register.png" width="200"/></td>
-    <td align="center"><strong>🔑 Login</strong><br/><img src="assets/login.png" width="200"/></td>
+    <td align="center"><strong>🔐 Register</strong><br/><img src="assets/register.jpg" width="200"/></td>
+    <td align="center"><strong>🔑 Login</strong><br/><img src="assets/login.jpg" width="200"/></td>
     <td></td>
   </tr>
 </table>
