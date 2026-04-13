@@ -214,10 +214,9 @@ During this internship, I:
 <div align="center">
 
 **Souad Zriouil**  
-📍 Settat, Morocco  
-📧 [souadzriouil02@gmail.com](mailto:souadzriouil02@gmail.com)  
-🔗 [GitHub Profile](https://github.com/Souadzriouil)
+AI Engineer | Data Scientist | Machine Learning | NLP | LLM  
 
+[![GitHub](https://img.shields.io/badge/GitHub-Souadzriouil-black?logo=github)](https://github.com/Souadzriouil)
 </div>
 
 ---
